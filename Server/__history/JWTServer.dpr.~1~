@@ -1,0 +1,43 @@
+program JWTServer;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  SynCommons,
+  mORMot,
+  SynLog,
+  System.SysUtils,
+  SynSQLite3Static,
+  JWTServer.U_RESTServer in 'JWTServer.U_RESTServer.pas',
+  RestServer.U_JWT in '..\Common\RestServer.U_JWT.pas',
+  RestServer.U_Data in '..\Common\RestServer.U_Data.pas',
+  RestServer.U_Const in '..\Common\RestServer.U_Const.pas',
+  JWTServer.U_Start in 'JWTServer.U_Start.pas',
+  RestServer.U_DTB in '..\Common\RestServer.U_DTB.pas',
+  RestServer.I_Sample in '..\Common\RestServer.I_Sample.pas',
+  RestServer.U_Sample in '..\Common\RestServer.U_Sample.pas';
+
+begin
+  try
+    with TSQLLog.Family do
+    begin
+      Level := LOG_VERBOSE;
+      EchoToConsole := LOG_VERBOSE;
+      NoFile := True;
+    end;
+
+    InitializeServer();
+    try
+      Writeln('Press [Enter] to stop the server.'#10);
+      Readln;
+
+    finally
+      FinalizeServer();
+    end;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

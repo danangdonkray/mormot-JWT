@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/26 17:28:45.000.764,=C:\Users\cfard\Documents\RAD Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:27:59.000.882,C:\demo\JWT\Server\JWTServer.dproj=C:\Users\cfard\Documents\RAD Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2019/08/14 09:29:55.000.737,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:30:21.000.766,C:\demo\JWT\Server\JWTServer.U_RESTServer.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:40:09.000.493,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:41:17.000.972,C:\demo\JWT\Common\RestServer.U_JWT.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:47:45.000.473,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 09:47:58.000.168,C:\demo\JWT\Common\RestServer.U_Data.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:12:57.000.742,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:13:23.000.045,C:\demo\JWT\Common\RestServer.U_Const.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:15:49.000.875,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:16:04.000.001,C:\demo\JWT\Server\JWTServer.U_Start.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:25:59.000.998,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:26:13.000.968,C:\demo\JWT\Server\JWTServer.U_ServiceSession.pas=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:33:24.000.316,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:33:55.000.366,C:\demo\JWT\Server\Unit1.pas=C:\demo\JWT\Common\RestServer.U_DTB.pas</Transaction>
+    <Transaction>2019/08/14 10:45:25.000.064,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:45:40.000.585,C:\demo\JWT\Server\Unit1.pas=C:\demo\JWT\Common\U_CallBackInvokable.pas</Transaction>
+    <Transaction>2019/08/14 10:49:51.000.266,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:50:20.000.938,C:\demo\JWT\Server\Unit1.pas=C:\demo\JWT\Common\RestServer.I_Sample.pas</Transaction>
+    <Transaction>2019/08/14 10:52:57.000.467,=C:\demo\JWT\Server\Unit1.pas</Transaction>
+    <Transaction>2019/08/14 10:53:11.000.809,C:\demo\JWT\Server\Unit1.pas=C:\demo\JWT\Common\RestServer.U_Sample.pas</Transaction>
+    <Transaction>2021/12/06 14:41:03.000.705,D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\JWTServer.dproj=D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\myServer.dproj</Transaction>
+    <Transaction>2021/12/07 08:53:38.000.822,D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\JWTServer.U_RESTServer.pas=D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\myServer.U_RESTServer.pas</Transaction>
+    <Transaction>2021/12/07 08:53:50.000.616,D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\JWTServer.U_Start.pas=D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Server\myServer.U_Start.pas</Transaction>
+    <Transaction>2021/12/07 09:52:21.000.617,D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Common\RestServer.I_Sample.pas=D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Common\RestServer.I_RestInterface.pas</Transaction>
+    <Transaction>2021/12/07 09:57:32.000.597,D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Common\RestServer.U_Sample.pas=D:\MY DATA (PROJECT)\MY LIBRARY\OneDrive-2021-12-05\JWTSample\JWT\Common\RestServer.U_myMethods.pas</Transaction>
+  </Transactions>
+</BorlandProject>

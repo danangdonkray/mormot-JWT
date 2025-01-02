@@ -1,0 +1,20 @@
+unit RestServer.I_RestInterface;
+
+interface
+uses
+  SynCommons,
+  mOrmot;
+
+type
+  ImyMethodsInterface = interface(IInvokable)
+  ['{7CB8BE69-5D57-4D72-AE8E-EB69F7674CC6}']
+    function HelloWorld():string;
+    function FullList : TServiceCustomAnswer;
+  end;
+
+implementation
+
+initialization
+  TInterfaceFactory.RegisterInterfaces([TypeInfo(ImyMethodsInterface)]);
+
+end.
